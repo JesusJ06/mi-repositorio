@@ -33,5 +33,4 @@ render = ImageTk.PhotoImagen(imagen)
 
 Label(ventana, image=render).pack()
 
-# texto.pack(anchor=SE)
 ventana.mainloop() 
