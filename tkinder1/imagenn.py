@@ -9,6 +9,6 @@ Label(ventana,text="hola").pack()
 imagen = Image.open('123.jpg')
 render = ImageTk.PhotoImage(imagen)
 
-Label(ventana, image=render).pack()
+Label(ventana, image=render).pack(anchor=E)
 
 ventana.mainloop()
